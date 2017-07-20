@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^3.0.4",
+    "@types/webpack-env": "^1.13.0",
+    "awesome-typescript-loader": "^3.2.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.3.0"
+  },
+  "scripts": {
+    "build-bug0": "webpack",
+    "build-bug1": "webpack --config webpack.config.js",
+    "build-bug2": "webpack --config webpack.config.test.js",
+    "build-work": "webpack --config webpack.config.without.js"
+  }
+}
